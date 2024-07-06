@@ -1,0 +1,72 @@
+<html>
+	<head>
+		<title>Registration</title>
+		<link rel="icon" href="../assets/digital-library.png">
+		<link rel="stylesheet" href="../css/home.css">
+
+		<link rel="stylesheet" href="../css/register.css">
+
+		<script src="../script/register.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Syne+Mono" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+
+	<body>
+		<ul id="navList">
+            <li><a href="../view/home.html">Home</a></li>
+            <li><a href="../view/shelf.html">Shelf</a></li>
+            <li><a href="../view/contactus.html">Contact Us</a></li>
+            <li><a href="../view/about.html">About Us</a></li>
+			<li><a href="../view/login.html">Login</a></li>
+			<li><a class="active" href="../view/register.html">Sign Up</a></li>
+        </ul>
+	<div class="card">
+		<form id="registrationForm">
+			<legend><h1>Registration</h1></legend>
+			<hr>
+		
+			<div>
+			<label for="name" id="nameLabel"><b>Name: </b></label>
+			</div>
+			<div>
+			<input type="text" id="nameInput" class="input" placeholder="Name" required/>
+			</div>
+			
+			<div>
+			<label for="email" id="emalLabel"><b>Email: </b></label>
+			</div>
+			<div>
+			<input type="email" id="emailInput" class="input" placeholder="Email" required/>
+			</div>
+			
+			<div>
+			<label for="pwd" id="pwdLabel"><b>Password: </b></label>
+			</div>
+			<div>
+			<input type="password" id="pwdInput" class="input" placeholder="Enter your Password here." required/>
+			</div>
+			
+			<div>
+			<label for="pwd" id="repwdLabel"><b>Re-Type Password: </b></label>
+			</div>
+			<div>
+			<input type="text" id="repwdInput" class="input" placeholder="Retype your Password here." required/>
+			</div>
+			
+			<br>
+
+			<button type="submit" class="signup" onclick="register()" value="Sign Up">Sign Up</button> &nbsp;
+			<br>
+			<span class="memberUser">Already a member? <span><a class="member" href="../view/register.html"/> Create an account here.</span></span>
+	
+		</form>	
+	</div>
+	
+	<footer>
+			<p style="margin-bottom:0px">&copy; 2024 Cloud Library</p><p style="margin-top:0px">Praveen Lahase</p>
+	</footer>
+	
+	</body>
+</html>

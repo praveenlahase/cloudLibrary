@@ -1,0 +1,78 @@
+body{
+	background-image:url("../assets/shelf_new.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+.book {
+    
+    padding: 10px;
+    margin: 10px;
+    background-color: transperant;
+    text-align: center;
+	flex: 0 40% 20%;
+	height:200px;
+	width: 150px;
+
+}
+.book img {
+    height:200px;
+	width: 150px;
+    margin-top: 0px;
+	padding:0px;
+	cursor: pointer;
+}
+.carousel-container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.carousel {
+    display: flex;
+    align-items: center;
+}
+.carousel-track-container {
+    overflow: hidden;
+    width: 100%;
+}
+.carousel-track {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.carousel-button {
+    
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: 3em;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+
+}
+.carousel-button.prev {
+   left: auto;
+}
+.carousel-button.next {
+    right: auto;
+}
+p{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+h3{
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#marqueeAtReadPage{
+	font-size: xx-large;
+	color:blue;
+	font-family: 'Syne Mono';
+	width:100%;
+	font-size: 35px;
+	text-align:justify;
+}

@@ -1,0 +1,100 @@
+body {
+    margin: 0;	
+	background-image:url("../assets/lib_bkg.jpg");
+	background-repeat:no-repeat;
+	background-size:80% 100%;
+	background-attachment: fixed;
+	background-position: center;
+}
+#navList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+.active {
+    background-color: #66B7D5;
+	color:white;
+}
+.body-back{
+	padding: 20px;
+    margin-top: 30px;
+
+	text-align:center;
+}
+.box{
+    width: 100%;
+	border-radius:5px;
+	text-align:center;
+}
+#heading{
+	margin-top:0px;
+	color:red;
+	font-family: 'Tangerine';
+	font-size:72px;
+	position:center;
+}
+img{
+	width:100px;
+	height:100px;
+	position:center;	
+}
+#search {
+  width: 300px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  border-radius: 40px;
+  font-size: 16px;
+  background-image: url("../assets/searchicon_2.png");
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color:white;
+  
+}
+.btn{
+  background-color:rgba(0, 0, 0, 0.6);
+  border: 3px solid #ccc;
+  border-radius:40px;
+  color: white; 
+  padding: 12px 16px;
+  cursor: pointer;
+}
+#welcome_paragraph{
+	background-color: rgba(0, 0, 0, 0.3);
+	margin-top:0px;
+	color:Blue;
+	width:100%;
+	font-size: 25px;
+	text-align:justify;
+}
+input::placeholder {
+  font-weight: bold;
+  color:grey;
+}
+footer {
+    background-color: transparent;
+    color: black;
+    text-align: right;    
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+}

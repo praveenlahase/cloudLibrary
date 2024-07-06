@@ -1,0 +1,79 @@
+body{
+	background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ),url("../assets/about-us.png");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-attachment: fixed;
+}
+.about_body{
+	margin-top:45px;
+	color: black;
+}
+#aboutH1{
+	margin-left:15px;
+	text-decoration:underline;
+	font-family: 'Syne Mono';
+	font-size:72px;
+	margin-bottom:0;
+}
+.innerAbout{
+	width:400px;
+	margin-left:15px;
+	font-size:20px;
+}
+#aboutH2-1{
+	text-align:left;
+	margin-left:15px;
+	text-decoration:underline;
+	font-family: 'Syne Mono';
+	font-size:48px;
+	margin-bottom:0;
+}
+#aboutH2-2{
+	text-align:left;
+	margin-left:15px;
+	text-decoration:underline;
+	font-family: 'Syne Mono';
+	font-size:48px;
+	margin-bottom:0;
+}
+#aboutH2-3{
+	text-align:left;
+	margin-left:15px;
+	text-decoration:underline;
+	font-family: 'Syne Mono';
+	font-size:48px;
+	margin-bottom:0;
+}
+.ourVision{
+	width:400px;
+	margin-left:15px;
+	font-size:20px;
+}
+.whatweoffer{
+	width:400px;
+	margin-left:15px;
+	font-size:20px;
+}
+#ulist{
+	width:400px;
+	margin-left:15px;
+	font-size:20px;
+}
+.whychoose{
+	width:400px;
+	margin-left:15px;
+	font-size:20px;
+}
+#chooselist{
+	width:400px;
+	margin-left:15px;
+	font-size:20px;
+}
+footer {
+    background-color: transparent;
+    color: black;
+    text-align: right;    
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+}
